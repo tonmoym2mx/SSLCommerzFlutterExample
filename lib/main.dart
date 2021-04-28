@@ -25,8 +25,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   var _key = GlobalKey<FormState>();
-  double _amount = 123;
-  dynamic formData = {};
+  double _amount = 0;
 
   @override
   void initState() {
